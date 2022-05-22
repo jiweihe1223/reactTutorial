@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.item input[type="checkbox"]{
+  text-align: center;
+  width: 48px;
+  height: 2.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem
+}
+
+.item > label{
+  font-size: 0.75rem;
+  flex-grow: 1;
+}
+
+.item svg {
+  width: 48px;
+  height: 36px;
+  color: steelblue;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.item svg:focus,
+.item svg:hover {
+  color: red;
+  outline: none;
+}
+
